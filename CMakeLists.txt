@@ -1,13 +1,14 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(camera_publisher)
 
+find_package( OpenCV REQUIRED )
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
   image_transport
-  opencv3
   roscpp
   std_msgs
   uvc_camera
@@ -85,7 +86,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES camera_publisher
-#  CATKIN_DEPENDS cv_bridge image_transport opencv3 roscpp std_msgs uvc_camera
+#  CATKIN_DEPENDS cv_bridge image_transport opencv2 roscpp std_msgs uvc_camera
 #  DEPENDS system_lib
 )
 
