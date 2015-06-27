@@ -28,6 +28,6 @@ and
 
 ## example output
 
-## To Do
+## to do
 * example output
 
