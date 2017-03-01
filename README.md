@@ -1,4 +1,4 @@
-# ROS Camera Publisher
+# Camera Publisher ROS
 
 The purpose of this program is to publish camera images and infos (such as the camera matrix) as a ROS topic.
 
